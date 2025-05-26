@@ -1,0 +1,85 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Vino Tinto Reserva",
+        "categoria": "Vinos",
+        "precio": 25.99,
+        "descripcion": "Vino tinto envejecido en barrica de roble por 24 meses.",
+        "imagen": "vino_tinto_reserva.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Vino Blanco Chardonnay",
+        "categoria": "Vinos",
+        "precio": 19.99,
+        "descripcion": "Refrescante vino blanco con notas frutales y toques cítricos.",
+        "imagen": "vino_blanco_chardonnay.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Vino Rosado Merlot",
+        "categoria": "Vinos",
+        "precio": 18.50,
+        "descripcion": "Suave y afrutado, ideal para acompañar aperitivos.",
+        "imagen": "vino_rosado_merlot.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Mermelada de Uva",
+        "categoria": "Dulces y conservas",
+        "precio": 5.99,
+        "descripcion": "Mermelada artesanal elaborada con uvas frescas y azúcar de caña.",
+        "imagen": "mermelada_uva.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Pasas de Uva Orgánicas",
+        "categoria": "Dulces y conservas",
+        "precio": 4.50,
+        "descripcion": "Pasas deshidratadas naturalmente, sin conservantes.",
+        "imagen": "pasas_uva.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Jugo de Uva Natural",
+        "categoria": "Dulces y conservas",
+        "precio": 7.99,
+        "descripcion": "Jugo 100% natural sin azúcar añadida, rico en antioxidantes.",
+        "imagen": "jugo_uva.jpg"
+      },
+      {
+        "id": 7,
+        "nombre": "Aceite de Pepitas de Uva",
+        "categoria": "Cuidado personal",
+        "precio": 12.99,
+        "descripcion": "Aceite ligero y antioxidante para el cuidado de la piel y el cabello.",
+        "imagen": "aceite_pepitas_uva.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Exfoliante de Semillas de Uva",
+        "categoria": "Cuidado personal",
+        "precio": 9.50,
+        "descripcion": "Exfoliante natural con semillas de uva para una piel suave y radiante.",
+        "imagen": "exfoliante_semillas_uva.jpg"
+      },
+      {
+        "id": 9,
+        "nombre": "Crema Hidratante con Extracto de Uva",
+        "categoria": "Cuidado personal",
+        "precio": 15.99,
+        "descripcion": "Crema nutritiva con antioxidantes naturales de la uva.",
+        "imagen": "crema_hidratante_uva.jpg"
+      },
+      {
+        "id": 10,
+        "nombre": "Jabón Artesanal de Uva",
+        "categoria": "Cuidado personal",
+        "precio": 6.99,
+        "descripcion": "Jabón hecho a mano con extracto de uva y aceites esenciales.",
+        "imagen": "jabon_artesanal_uva.jpg"
+      }
+    ]
+  }
+  

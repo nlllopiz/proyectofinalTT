@@ -1,0 +1,90 @@
+Clase 1
+* Ejer 1: Estructura básica
+    - Crear la estructura básica del proyecto, incluyendo las etiquetas <header>, <nav>, <main>, <section>, y <footer>.
+* Ejer 2: README.md
+    - Agregar un archivo README.md en el proyecto, explicando brevemente de qué tratará la página que se va a desarrollar.
+
+Clase 2
+* Ejer 1: Lista de navegación
+    - Crear una barra de navegación usando la etiqueta <nav>.
+    - El <nav> debe contener una lista desordenada con enlaces
+    Ejemplo: "Inicio", "Productos", "Contacto". Estos enlaces deberán simular una navegación interna en la página.
+* Ejer 2: Inserción de imagen y video
+    - Insertar una imagen en formato .png en el <header> para representar el logo del proyecto
+    - Insertar una imagen y un iframe o video funcional a la e-commerce en una <section> dentro del <main>.
+    Asegurarse de agregar atributos alt para la imagen y subtítulos para el video.
+
+Clase 3
+* Ejer 1: Crear un Formulario de Contacto
+    - Dentro de la sección <main>, creá un formulario de contacto utilizando Formspree. El formulario debe incluir los siguientes campos:
+        Nombre (<input type="text">)
+        Correo electrónico (<input type="email">)
+        Mensaje (<textarea>)
+* Ejer 2: Subir el Proyecto a un Hosting Gratuito
+    - Subí el proyecto desarrollado hasta el momento a un hosting gratuito (Netlify o GitHub).
+
+Clase 4
+* Ejer 1: Incorporar CSS externo
+    - Crear un archivo styles.css, importarlo en tu HTML, y aplicar estilos al header y footer.
+* Ejer 2: Modificar la barra de navegación (Navbar)
+    - Cambiar el color de los enlaces y el fondo del menú en la lista de navegación.
+        1.Asegurate de tener una lista de navegación como esta:
+        <ul class="nav-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        2. Aplica los siguientes estilos en styles.css:
+        - Utilizá la propiedad “list-style” y el valor “none” para quitarle la viñeta a la lista desordenada.
+        - Utilizá la propiedad “text-decoration” y el valor “none” para quitarle la apariencia de enlace al anchor dentro de la lista. 
+        - Utiliza la propiedad color para modificar el color del texto dentro del enlace.
+        3. Este estilo le dará a tu menú de navegación un aspecto más agradable y profesional, mejorando no sólo el diseño y la accesibilidad sino la experiencia de quienes visiten tu sitio web.
+
+Clase 5
+* Ejer 1: Tipografía con Fuente Externa
+    - Personalizar las fuentes de la página utilizando Google Fonts. Cambiar la tipografía general de tu proyecto.
+* Ejer 2: Fondo Personalizado
+    - Aplicar un background-color al fondo del <header> y el <footer>.
+    - Sumá Iconos
+    Incorporar iconos que representen las redes sociales y ubicarlos en el <footer> de todos los documentos de tu sitio web. No olvides hacer uso de enlaces para que al clickear los iconos te redirijan a la página principal de de la red social.
+
+Clase 6
+* Ejer 1: Modelado de caja
+    - Definir las propiedades del modelo de caja para los elementos principales (header, main, section , footer). Ajustar los márgenes, rellenos y bordes de estos elementos (o los que se encuentran en su interior). 
+* Ejer 2: Sección productos con Flexbox
+    - Distribuye tu barra de navegación horizontalmente haciendo uso de Flexbox.
+    - Crear una disposición de productos en la sección Productos utilizando Flexbox. Asegúrate de que los productos se alineen correctamente y se adapten a diferentes tamaños de pantalla.
+
+Clase 7
+* Ejer 1: Secciòn “Reseñas”
+    - Crear al menos 3 cards en la sección de "Reseñas", utilizando Grid, para organizar al menos tres cards de manera responsiva
+        1. Estructura HTML: Asegurate de tener una estructura básica que incluya una sección para "Reseñas" dentro de <main>, y que cada reseña esté dentro de un <div> con la clase card.
+        2. Aplicar CSS Grid: En el archivo styles.css, aplicá display: grid y grid-template-columns con repeat(auto-fit, minmax(250px, 1fr)) para hacer que las cards sean responsivas y se adapten a la pantalla.
+        3. Márgenes y Espaciado: Usá gap para dar espacio entre las cards y padding para que no queden pegadas a los bordes del contenedor.
+        4. Interactividad: Añadí un efecto de hover con transform: translateY(-5px) para que las tarjetas se eleven al pasar el mouse.
+        5. Box Model: Aplicá padding, border y box-shadow para darle estructura a las cards y hacerlas más atractivas visualmente.
+* Ejer 2: Media Queries
+    - Implementar una media queries en la sección “Contacto” que ajuste el diseño de la página para dispositivos móviles, asegurándote de que el layout de las cards de reseñas se adapte a pantallas más pequeñas.
+        1. Estructura HTML: Crea una estructura básica con una sección "Contacto" y un formulario usando etiquetas como <section>, <form>, <input> y <textarea>.
+        2. Media Queries: Usa @media (max-width: 768px) en styles.css para adaptar el diseño a dispositivos pequeños como tablets y celulares.
+        3. Ajuste de Cards: Aplica grid-template-columns: 1fr a las tarjetas de reseñas para que se apilen en pantallas pequeñas y mejoren la legibilidad.
+        4. Formulario Adaptable: Modifica el padding y los tamaños de los campos del formulario para optimizar su apariencia en dispositivos con menos espacio.
+        5. Pruebas: Verifica el diseño en herramientas de desarrollador para confirmar que las media queries funcionan y el contenido se adapta a diferentes tamaños de pantalla.
+
+Clase 8:
+* Ejer1: Crear una nueva rama en Git
+    - Crear una nueva rama en tu repositorio Git además de la rama principal (main o master). Nombrá la nueva rama de acuerdo con la funcionalidad o característica que estás desarrollando. Asegurate de hacer un commit en la nueva rama y luego subila al repositorio remoto en GitHub.
+        Tips:
+        - Creación de la rama: Usá el comando git checkout -b nombre-de-la-rama para crear y cambiarte a la nueva rama al mismo tiempo.
+        - Verificar la rama actual: Ejecutá git branch para verificar que estés en la rama correcta antes de hacer cambios.
+        - Hacer commits en la nueva rama: No olvides usar git add . seguido de git commit -m "Descripción de los cambios" para registrar los cambios en la nueva rama.
+        - Subir la nueva rama a GitHub: Usá git push origin nombre-de-la-rama para subir tu nueva rama al repositorio remoto.
+
+* Ejer 2: Repositorio en Github
+    - Crear un repositorio en GitHub para tu proyecto, subir el código actual y realizar commits documentando los cambios. Asegurarse de que el repositorio esté configurado para futuras actualizaciones. A continuación te mostramos cómo nombrar el repositorio.
+    - Nombre del repositorio: proyecto-final-ecommerce-[nombre-apellido]
+        1. Organización del repositorio: asegurate de que el nombre del repositorio siga el formato correcto: proyecto-final-ecommerce-[nombre-apellido]. Esto te ayudará a mantener un esquema de nombres claro y profesional.
+        2. Documentación de commits: Siempre que hagas un commit, utilizá mensajes claros y descriptivos que expliquen los cambios realizados. Ejemplo: git commit -m "Añadido formulario de contacto".
+        3. Mantener el repositorio actualizado: A medida que avances en tu proyecto, asegurate de hacer commits frecuentemente y subir tus cambios a GitHub para que tu trabajo esté siempre respaldado.
+        4. Futuras actualizaciones: Configurá tu repositorio para futuras actualizaciones asegurándote de hacer pull antes de realizar push cuando trabajes desde distintas ubicaciones o dispositivos.
