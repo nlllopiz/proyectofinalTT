@@ -268,7 +268,8 @@ footer {
     }
 
     header {
-        grid-area: encabezado;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     aside {
